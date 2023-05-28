@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#container {
+    border: 1px solid black;
+}
+
+#tabs {
+    border: 1px solid red;
+    height: 60px;
+    width: 300px;
+}
+
+#chat-box {
+    border: 1px solid purple;
+    height: 340px;
+    width: 300px;
+}
+
+#cat-box {
+    border: 1px solid blue;
+    height: 100px;
+    width: 300px;
+}
+
+#canvas1 {
+    height: 100px;
+    width: 300px;
+}
+
+
+#cat {
+    display: none;
+}
