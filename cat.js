@@ -70,8 +70,8 @@ export class Cat {
     // Draw currently active frame
     draw(context) {
         context.drawImage(this.image, this.width * this.xFrame, this.height * this.yFrame, this.width, this.height, this.x, this.y, this.height * 2, this.width * 2);
-        // context.fillStyle = 'red';
-        // context.fillRect(this.x, this.y, this.width, this.height);
+        context.fillStyle = 'red';
+        context.fillRect(this.x, this.y, this.width, this.height);
     }
     setState(state) {
         this.currentState = this.states[state];
