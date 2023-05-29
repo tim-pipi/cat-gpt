@@ -15,7 +15,7 @@ window.addEventListener('load', function(){
             this.input = new InputHandler();
         }
         update() {
-            this.cat.update(this.input.keys);
+            this.cat.update(this.input.lastKey);
         }
         draw(context) {
             this.cat.draw(context)
